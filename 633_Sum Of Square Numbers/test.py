@@ -1,2 +1,3 @@
-a = int(74**(1/2))
-print(a)
+c = 6
+s = int(c**(1/2))
+print(s)

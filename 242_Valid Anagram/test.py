@@ -1,16 +1,36 @@
-# a = "anagram"
-# l1 = list(a)
+s = "anagram"
+t = "nagaram"
 
-# b = "nagaram"
-# l2 = list(b)
+# t1 = tuple(a)
+# t2 = tuple(b)
 
-# l1.remove(l2[1])
-# print(l1)
+# print(t1,t2)
 
-a = "Sil ent"
+# if (t1 == t2):
+    # print(True)
+# else:
+    # print(False)
 
-b = "listen"
+# n = a.count(a[0])
+# print(n)
 
-a = a.lower().replace(" " , "")
+map1 = {
+    "a" : 3,
+    "n" : 1,
+    "g" : 1,
+    "r" : 1,
+    "m" : 1
+}
 
-print(a)
+map2 = {
+    "a" : 3,
+    "n" : 1,
+    "g" : 1,
+    "r" : 1,
+    "m" : 1
+}
+
+if (map1 == map2):
+    print(True)
+else:
+    print(False)
