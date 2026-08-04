@@ -1,4 +1,4 @@
-nums = [2,5]
+nums = [2,5,7,10,15,16]
 target = 2
 
 def search(nums,target):
